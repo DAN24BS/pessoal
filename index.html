@@ -1,0 +1,70 @@
+<!--
+ Olá alunos, segue um exemplo de página de perfil.
+ Está bem completa (e um pouco complexa) Mas serve para aprendizado.
+ Temos HTML+CSS
+-->
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/png" href="../assets/img/favicon.ico" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Sou eu, Lucas!💻</title>
+    <meta
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no"
+      name="viewport"
+    />
+    <!--     fontes da página (roboto - podia ser arial ou qualquer outra)    -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons"
+    />
+    <!--     icones das redes sociais     -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css"
+    />
+    <!-- arquivos CSS -->
+    <link href="../assets/css/styles.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="main">
+      
+      <img
+        src="data:image/jpeg;base64,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"
+        alt="Circle Image"
+        id="img"
+      />
+
+    <div id="text">      
+      
+       <h2>Professor Lucas</h2>
+      <h4>Dev 👨‍💻, Professor 👨‍🏫, Gamer🎮</h4>
+      
+      <a href="#lucas" class="social" id="insta"> <i class="fa fa-instagram"></i></a>
+      <a href="#lucas" class="social" id="linkedin"> <i class="fa fa-linkedin"></i></a>
+      <a href="#lucas" class="social" id="facebook"> <i class="fa fa-facebook"></i></a>
+      <a href="#lucas" class="social" id="steam"> <i class="fa fa-steam"></i></a>
+      <a href="#lucas" class="social" id="github"> <i class="fa fa-github"></i></a> 
+    
+      <div class="description">
+      <p>
+        Aqui logo de cara podemos colocar uma breve mensagem &#x2014; por
+        exemplo: <br>
+        Apaixonado por <b>tecnologia</b> e <b>educação</b>.<br>
+        Acredito que a dignidade humana começa pelos direitos básicos.<br>
+        Nas horas vagas gosto de acompanhar o cenário de CS:GO e Viajar.
+      </p>
+    </div>
+  </div>
+  </div>
+    <footer>
+      <b>2023</b> &#x2014; feito com ❤️ por
+      <a id="lucas" href="https://www.github.com/lucas231090" target="_blank">Professor Lucas</a>
+      para os alunos do curso Técnico em Desenvolvimento de Sistemas &#x2014;
+      Novo Ensino médio &#x2014; SEED/PR.
+    </footer>
+  </body>
+</html>
