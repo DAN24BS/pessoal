@@ -2,10 +2,13 @@
 
 body {
   font-size: 26px;
-  background: #f1f1f1;
+  background: #0059ff;
   font-family: Roboto, sans-serif;
  }
-
+img {
+  width: 50px; 
+  height: 300px;
+}
  .main{
   max-width: 1500px;
   margin: 0 auto;
@@ -41,7 +44,7 @@ body {
  }
 
 #insta:hover{
-  color:  #f1f1f1;
+  color:  rgb(255, 255, 255);
   transition: 0.9s;
   background: #d6249f;
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
